@@ -3,9 +3,9 @@
 ## データの読み込み、シャッフル、学習データと評価データの分割 
 ## データセットの作成 
 ### データセットクラスの定義
-データファイル、transfromを引数とした__init__関数 
-データファイルの長さを返す__len__関数 
-指定インデックスのデータを読み込み、transformを通す__getitem__関数 
+データファイル、transfromを引数とした__init__関数  
+データファイルの長さを返す__len__関数  
+指定インデックスのデータを読み込み、transformを通す__getitem__関数  
 ### パラメータの定義 
 model,device,target_num,ir,batch_size,num_workers,epochs 
 ### transformの設定及びデータセットクラスへの適用
